@@ -1,0 +1,322 @@
+/*fonts*/
+@font-face { 
+    font-family: bills-bold;
+    src: url("/project/fonts/PostNoBillsJaffna-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:bills-extrabolt;
+    src: url("/project/fonts/PostNoBillsJaffna-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: pt-sans;
+    src: url(/project/fonts/ptsans/PTSans-Bold.ttf) format("truetype");
+
+
+
+
+}
+
+
+
+
+@font-face {
+    font-family:playfair;
+    src: url(/project/fonts/playfairdisplayfont/PlayfairDisplay-Bold.ttf) format("truetype");
+}
+/*color*/
+
+
+/*headerblock*/
+body{
+    background: #000;
+}
+
+.headerblock {
+    width:100%;
+    background-image: url("/project/bg2.jfif");
+    height: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+
+
+p {
+    word-spacing: 5px;
+    font-family: " pt-sans";
+    font-size: 14px;
+}
+
+
+
+
+.axe{
+    font-family: "bills-extrabolt";
+    text-decoration: none;
+    
+    font-size: 12px;
+}
+
+.axe:hover{
+    transform: scale(1.1);
+
+}
+
+a{
+    font-family: "pt-sans";
+}
+
+
+/*navbar*/
+.hova{
+    margin-left: 350px;
+}
+
+
+li{
+    padding: 20px 20px;
+    font-size: 14px;
+}
+
+.qs {
+    font-size: 50px;
+    font-family: "bills-extrabolt";
+}
+
+.nav{
+    height: 80px;
+    position: fixed;
+}
+
+ul{
+   right: -200px;
+}
+li:hover{
+    background:  #1F1F1F;
+    
+}
+.hov{
+    font-size: 14px;
+    font-family: "pt-sans";
+}
+
+/*end navbar*/
+
+/*porterlog*/
+.porterlog{
+    width: 320px;
+    height: 320px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.logo{
+    font-size: 48px;
+}
+
+.line{
+    width: 185px;
+height: 2px;
+background: white;
+
+
+}
+
+
+.sank{
+    font-size: 22px;
+    
+}
+
+.text{
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 15px;
+
+}
+
+
+
+
+
+/*second part seasoan*/
+
+
+.col-6
+{
+    font-family:"playfair";
+}
+
+
+.logo{width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.line-2{
+    width: 120px;
+    height: 2px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.image-pading{
+    padding:10px;
+    background: #000;
+width: 190px;
+}
+
+img{
+    width:  180px;
+    height: 160px;
+}
+
+h6{
+    font-size: 18px;
+    font-family:"playfair";
+}
+
+/*second col*/
+
+.bgr{
+    background-image: url(/project/photo/togo.jfif);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    height: cover;
+   padding-bottom: 100px;
+    
+}
+
+
+.logocol{
+    margin-top: 230px;
+    font-family:"playfair";
+}
+
+
+.btn2{
+  
+   text-decoration: none;
+   color: white;
+   padding: 7px 20px;
+   border: 2px solid white;
+   font-family: "pt-sans";
+}
+
+.clickbutton{ padding: 5px;
+
+}
+
+/*2 row*/
+
+
+.bgcol-4{
+    background-image: url(/project/photo/rasm2.jfif);
+    background-size: 100%;
+    height: 420px;
+    background-repeat: no-repeat;
+}
+
+.kol18{
+    font-family:"playfair";
+    font-size: 36px;
+}
+
+.qsa{
+    font-size: 12px;
+    padding: 0px 70px 0px 70px;
+    text-align: center;
+}
+
+.bgcol-2{
+    background: #000;
+    height: 420px;
+}
+
+
+/*marketplace*/
+.marketplace{
+    background: #000;
+}
+
+.widthcols{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+.qas{ padding:20px 10px;
+  
+width: 80%;
+height: 60%;
+
+cursor:  pointer;
+
+
+
+}
+
+
+footer
+{
+
+background:linear-gradient(0deg, rgba(15, 15, 15, 0.85), rgba(15, 15, 15, 0.85)),
+
+
+url(/project/photo/bg3.jfif) no-repeat center center / cover
+; 
+
+background-size:cover;
+
+
+}
+
+
+
+.catecory-buttons{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px 10px 20px;
+    background:  #0F0F0F;
+    font-family: "pt-sans";
+    font-size: 14px;
+}
+
+
+
+
+
+
+/*responsivity*/
+@media (min-width:0px)  and (max-width:447px) {
+    .hova {
+        margin-left: 0px;
+    }
+    
+}
+
+
+
+
+@media (min-width:0px) and (max-width:447px) {
+    
+    
+    .headerblock{
+        width: 100%;
+    }
+
+p{
+    font-size: 8px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+
+
+}
